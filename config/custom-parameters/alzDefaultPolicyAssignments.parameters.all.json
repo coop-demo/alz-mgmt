@@ -72,6 +72,18 @@
     },
     "parTelemetryOptOut": {
       "value": false
+    },
+    "parDataCollectionRuleVMInsightsResourceId": {
+      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-vmi-dcr"
+    },
+    "parDataCollectionRuleChangeTrackingResourceId": {
+      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-ct-dcr"
+    },
+    "parDataCollectionRuleMDFCSQLResourceId": {
+      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/ama-mdfcsql-default-dcr"
+    },
+    "parUserAssignedManagedIdentityResourceId": {
+      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.ManagedIdentity/userAssignedIdentities/alz-umi-identity"
     }
   }
 }
