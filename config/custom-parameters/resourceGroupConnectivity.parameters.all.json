@@ -10,7 +10,9 @@
     },
     "parTags": {
       "value": {
-        "Environment": "production"
+        "Environment": "Production",
+        "Costcenter" : "12345",
+        "Owner"      : "Infrastructure Services"
       }
     },
     "parTelemetryOptOut": {
