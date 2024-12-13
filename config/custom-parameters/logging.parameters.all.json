@@ -74,6 +74,33 @@
         "kind": "None",
         "notes": "This lock was created by the ALZ Bicep Logging Module."
       }
+    },
+    "parDataCollectionRuleVMInsightsLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Logging Module."
+      }
+    },
+    "parDataCollectionRuleChangeTrackingLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Logging Module."
+      }
+    },
+    "parDataCollectionRuleMDFCSQLLock": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep Logging Module."
+      }
+    },
+    "parDataCollectionRuleVMInsightsName": {
+      "value": "alz-ama-vmi-dcr"
+    },
+    "parDataCollectionRuleChangeTrackingName": {
+      "value": "alz-ama-ct-dcr"
+    },
+    "parDataCollectionRuleMDFCSQLName": {
+      "value": "alz-ama-mdfcsql-dcr"
     }
   }
 }
