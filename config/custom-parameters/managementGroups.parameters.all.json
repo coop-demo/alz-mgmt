@@ -9,10 +9,10 @@
       "value": ""
     },
     "parTopLevelManagementGroupDisplayName": {
-      "value": "Azure Landing Zones"
+      "value": "CNSA-ALZ"
     },
     "parTopLevelManagementGroupParentId": {
-      "value": "cnsa"
+      "value": ""
     },
     "parLandingZoneMgAlzDefaultsEnable": {
       "value": true
@@ -27,7 +27,11 @@
       "value": {}
     },
     "parPlatformMgChildren": {
-      "value": {}
+      "value": {
+        "security": {
+          "displayName": "Security"
+          }
+        }
     },
     "parTelemetryOptOut": {
       "value": false

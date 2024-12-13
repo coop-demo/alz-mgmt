@@ -8,9 +8,6 @@
     "parTopLevelManagementGroupSuffix": {
       "value": ""
     },
-    "parDdosEnabled": {
-      "value": true
-    },
     "parTopLevelPolicyAssignmentSovereigntyGlobal": {
       "value": {
         "parTopLevelSovereigntyGlobalPoliciesEnable": false,
@@ -42,37 +39,19 @@
       "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
     },
     "parLogAnalyticsWorkspaceLogRetentionInDays": {
-      "value": "365"
-    },
-    "parLogAnalyticsWorkspaceResourceCategory": {
-      "value": "allLogs"
-    },
-    "parDataCollectionRuleVMInsightsResourceId": {
-      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-vmi-dcr"
-    },
-    "parDataCollectionRuleChangeTrackingResourceId": {
-      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-ct-dcr"
-    },
-    "parDataCollectionRuleMDFCSQLResourceId": {
-      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.Insights/dataCollectionRules/ama-mdfcsql-default-dcr"
-    },
-    "parUserAssignedManagedIdentityResourceId": {
-      "value": "/subscriptions/22587641-ee4b-4881-95d2-f8482414c829/resourcegroups/rg-cnsa-logging/providers/Microsoft.ManagedIdentity/userAssignedIdentities/alz-umi-identity"
+      "value": "30"
     },
     "parAutomationAccountName": {
       "value": "alz-automation-account"
     },
     "parMsDefenderForCloudEmailSecurityContact": {
-      "value": "csa@quackster.com"
+      "value": "ingrid.finnoy@microsoft.com"
     },
     "parDdosProtectionPlanId": {
-      "value": "/subscriptions/210af666-7a18-42e4-b385-7a8231807ece/resourceGroups/rg-cnsa-connectivity/providers/Microsoft.Network/ddosProtectionPlans/alz-ddos-plan"
+      "value": ""
     },
     "parPrivateDnsResourceGroupId": {
-      "value": "/subscriptions/210af666-7a18-42e4-b385-7a8231807ece/resourceGroups/rg-cnsa-connectivity"
-    },
-    "parPrivateDnsZonesLocation": {
-      "value": "norwayeast"
+      "value": ""
     },
     "parPrivateDnsZonesNamesToAuditInCorp": {
       "value": []
@@ -87,7 +66,9 @@
       "value": []
     },
     "parExcludedPolicyAssignments": {
-      "value": []
+      "value": [
+        "Enable-DDoS-VNET"
+      ]
     },
     "parTelemetryOptOut": {
       "value": false
