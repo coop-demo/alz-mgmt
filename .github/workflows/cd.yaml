@@ -65,4 +65,4 @@ jobs:
       management_group_diagnostic_settings: ${{ inputs.management_group_diagnostic_settings }}
       policy_assignments: ${{ inputs.policy_assignments }}
       subscription_placement: ${{ inputs.subscription_placement }}
-      connectivity_resource_group: ${{ inputs.connectivity }}
+      connectivity_resource_group:  ${{ inputs.connectivity || 'default_connectivity' }}
