@@ -41,7 +41,7 @@ on:
       connectivity:
         description: 'Run Steps: Connectivity'
         type: boolean
-        default: true
+        default: false
       destroy:
         description: '[DANGER!] Destroy? [DANGER!]'
         default: false
