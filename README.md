@@ -1,2 +1,3 @@
-# alz-mgmt
-alz-mgmt
+# Azure Landing Zones
+
+alz-mgmt repository
