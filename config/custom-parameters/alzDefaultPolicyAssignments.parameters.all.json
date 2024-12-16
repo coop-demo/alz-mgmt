@@ -51,7 +51,7 @@
       "value": ""
     },
     "parPrivateDnsResourceGroupId": {
-      "value": ""
+      "value": "/subscriptions/210af666-7a18-42e4-b385-7a8231807ece/resourceGroups/rg-cnsa-private-dns"
     },
     "parPrivateDnsZonesNamesToAuditInCorp": {
       "value": []
